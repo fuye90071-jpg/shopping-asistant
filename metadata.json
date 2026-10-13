@@ -1,0 +1,6 @@
+{
+  "name": "Shopping Optimization",
+  "description": "大促购物策略优化与智能凑单省钱决策引擎",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

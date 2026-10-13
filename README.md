@@ -1,11 +1,54 @@
-<div align="center">
+# 🛒 网购优惠计算助手 (Online Shopping Discount Optimizer)
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+一款专为电商大促（双11、618、年货节等）设计的网购优惠与跨店满减计算优化工具。支持自动解析多电商平台商品链接、智能凑单建议、优惠券叠加方案规划与最终省钱明细导出。
 
-  <h1>Built with AI Studio</h2>
+---
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## ✨ 核心特性
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+- 🔗 **多平台商品智能识别**：支持淘宝、天猫、京东、拼多多、唯品会、抖音电商等分享链接和商品文本快速提取与信息填充。
+- 🎯 **跨店满减最优组合计算**：自动匹配每满 300 减 50、每满 200 减 30 等阶梯满减规则，精准分摊优惠至各商品。
+- 💡 **智能凑单算法建议**：针对未达到满减门槛的金额，自动推荐最优凑单价格区间及常用补差价商品方案。
+- 🏷️ **多层级优惠券叠加**：支持店铺券、品类券、平台大额券、定金膨胀与立减活动。
+- 📊 **明细清晰与数据导出**：自动生成可视化优惠清单、实付比例计算，并支持一键导出分享。
+- 🎨 **黄白主题现代 UI**：清新明快的色彩视觉，响应式支持手机端与桌面端体验。
 
-</div>
+---
+
+## 🛠️ 技术栈
+
+- **前端**：React 18, TypeScript, Tailwind CSS, Lucide React
+- **构建工具**：Vite
+- **后端服务**：Express, TSX (Node.js)
+
+---
+
+## 🚀 快速启动
+
+### 1. 安装依赖
+
+```bash
+npm install
+# 或使用 bun / pnpm
+bun install
+```
+
+### 2. 本地开发
+
+```bash
+npm run dev
+```
+
+启动后在浏览器打开 `http://localhost:3000` 即可开始使用。
+
+### 3. 构建发布
+
+```bash
+npm run build
+```
+
+---
+
+## 📄 许可证
+
+本项目采用 [MIT License](LICENSE) 开源。
